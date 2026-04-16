@@ -1,7 +1,10 @@
-class A:
-    def h(self, p, l):
-        x = p * l
-        print(x)
+def hitung_luas_persegi_panjang(panjang, lebar):
+    return panjang * lebar
 
-tes = A()
-tes.h(5, 3)
+
+def tampilkan_hasil(luas):
+    print(f"Luas Persegi Panjang: {luas}")
+
+
+luas = hitung_luas_persegi_panjang(5, 3)
+tampilkan_hasil(luas)
